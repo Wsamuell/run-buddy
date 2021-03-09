@@ -55,3 +55,63 @@ footer a {
     color: #024e76;
     text-decoration: none;
 }
+section {
+    padding: 60px;
+}
+
+/* whats going on here, image is not displaying
+i have tried mocing image over to the css files but that didnt display either
+when i linked the path in section it showed up just fine its only not showing in .class*/
+
+/* it showed up after i closed the page and reopened it*/
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px; 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.hero-form {
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+
+/* could have been replaced with
+.hero-form {
+  ...
+  border: solid 3px #024e76;
+}  */
+
+}
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+/* i dont quite the devtool edit*/
+.hero-form label {
+    margin: 0 5px;
+}
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+/* i still dont really understand how padding works to be honest */
