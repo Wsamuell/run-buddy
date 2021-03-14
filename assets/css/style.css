@@ -7,7 +7,6 @@ body {
     font-family: helvetica, Arial, sans-serif;
     color: #39a6b2;
 }
-/* who the heck is commenting! */
 header {
     padding: 20px 35px;
     background-color: #39a6b2
@@ -58,12 +57,6 @@ footer a {
 section {
     padding: 60px;
 }
-
-/* whats going on here, image is not displaying
-i have tried mocing image over to the css files but that didnt display either
-when i linked the path in section it showed up just fine its only not showing in .class*/
-
-/* it showed up after i closed the page and reopened it*/
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px; 
@@ -79,13 +72,6 @@ when i linked the path in section it showed up just fine its only not showing in
     position: absolute;
     bottom: 120px;
     right: 140px;
-
-/* could have been replaced with
-.hero-form {
-  ...
-  border: solid 3px #024e76;
-}  */
-
 }
 .hero-form h3 {
     font-size: 24px;
@@ -103,7 +89,6 @@ when i linked the path in section it showed up just fine its only not showing in
     width: 100%;
     margin-bottom: 15px;
 }
-/* i dont quite the devtool edit*/
 .hero-form label {
     margin: 0 5px;
 }
@@ -114,4 +99,22 @@ when i linked the path in section it showed up just fine its only not showing in
     padding: 10px 20px;
     font-size: 16px;
 }
-/* i still dont really understand how padding works to be honest */
+.intro {
+    text-align: center;
+}
+.intro h2 {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #fce138;
+    display: inline-block;
+}
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
