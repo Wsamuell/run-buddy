@@ -13,4 +13,7 @@ https://wsamuell.github.io/run-buddy/
 ## Contribution
 Made with ❤️ by Samuel Odubamowo
 
+#Run Buddy Inc.
+
 ### ©️2019 Run Buddy, Inc 
+
